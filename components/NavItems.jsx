@@ -1,104 +1,105 @@
 import React from "react";
+import Link from "next/link";
 
 const NavItems = () => {
   return (
     <div className="max-w-5xl sm:max-w-3xl mx-auto my-5">
       <ul className="uppercase text-sm sm:text-xs font-thin opacity-80 flex items-center justify-between">
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             new!
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             bras
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             panties
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             lingerie
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             sleep
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             sport & lounge
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             beauty
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             accessories
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             swim
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             vsco-lab
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             sale
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className="hover:underline underline-offset-[18px] decoration-[#F4C6CF] decoration-4"
             href="/#"
           >
             vs now
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

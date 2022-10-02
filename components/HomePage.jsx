@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Slider from "./Slider";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -67,7 +68,7 @@ const HomePage = () => {
       <div className="border-b-2 border-gray-500 mt-20 max-w-7xl mx-auto"></div>
       <Slider />
       <div className="text-center">
-        <a href="/#">
+        <Link href="/#">
           <p className="mt-2 text-6xl font-bold uppercase">body by victoria</p>
           <p className="mt-2 text-sm text-gray-600">
             Our most-loved bras get a seasonal update with new, must-have hues.
@@ -76,10 +77,10 @@ const HomePage = () => {
           <p className="font-bold uppercase my-3 tracking-widest text-lg">
             shop
           </p>
-        </a>
+        </Link>
       </div>
       <div className="container mx-auto">
-        <a href="/#">
+        <Link href="/#">
           <Image
             src="/panties.jpg"
             width={1920}
@@ -98,17 +99,17 @@ const HomePage = () => {
               shop
             </p>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="container mx-auto relative">
-        <a href="/#">
+        <Link href="/#">
           <Image
             src="/free.jpg"
             width={1920}
             height={1080}
             layout="responsive"
           />
-        </a>
+        </Link>
         <div className="absolute top-1/2 right-[5%] text-center max-w-[450px]">
           <p className="uppercase tracking-wider font-bold text-base">
             limited time - online only
@@ -119,9 +120,9 @@ const HomePage = () => {
           </p>
           <p className="text-base text-gray-600">
             While quanntities last. Exclusions apply. Code RWFREETOTE.{" "}
-            <a href="/#" className="underline">
+            <Link href="/#" className="underline">
               Details
-            </a>
+            </Link>
           </p>
           <p className="uppercase tracking-wider font-bold my-2">
             shop new arrivals
@@ -129,7 +130,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="mt-5 relative">
-      <a href="/#">
+      <Link href="/#">
       <Image
             src="/bras.jpg"
             width={1920}
@@ -141,7 +142,7 @@ const HomePage = () => {
             <p className="font-bold uppercase text-5xl my-3">mix & match</p>
             <p className="font-bold uppercase">shop</p>
           </div>
-      </a>
+      </Link>
       </div>
     </>
   );
