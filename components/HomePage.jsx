@@ -134,7 +134,7 @@ const HomePage = () => {
           <p className="text-base text-gray-600">
             While quanntities last. Exclusions apply. Code RWFREETOTE.{" "}
             <Link href="/details" className="underline">
-              <a>Details</a>
+              <a className="underline">Details</a>
             </Link>
           </p>
           <p className="uppercase tracking-wider font-bold my-2">
