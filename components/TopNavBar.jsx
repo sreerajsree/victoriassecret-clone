@@ -1,15 +1,14 @@
 import React from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-import Link from "next/link";
+
 
 const TopNavBar = () => {
   return (
     <div className="sticky top-0 z-50">
       <div className="p-4 bg-[#F9E2E7] text-[9px] font-semibold tracking-wider text-center">
         <span>
-          FREE DELIVERY OVER $175 USD OR $25 USD FLAT-RATE DELIVERY ON ALL
-          ORDERS
+          DEVELOPMENT GOING ON
         </span>
         <a
           href=""
@@ -21,7 +20,6 @@ const TopNavBar = () => {
       <div className="p-3 bg-[#F7F7F8]">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex">
-            <Link href='/'>
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,8 +35,6 @@ const TopNavBar = () => {
                   </g>
                 </svg>
               </a>
-            </Link>
-            <Link href="/pink">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +51,6 @@ const TopNavBar = () => {
                   </g>
                 </svg>
               </a>
-            </Link>
           </div>
           <div className="flex">
             <a href="">
