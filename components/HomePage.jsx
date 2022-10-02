@@ -92,7 +92,7 @@ const HomePage = () => {
               5 for ₹ 3,034.66 panties
             </p>
             <p className="mt-2 text-sm text-gary-600">
-              Why stop att just fivr? It's the everyday indulgence at a
+              Why stop att just fivr? Its the everyday indulgence at a
               pick-me-up price
             </p>
             <p className="font-bold uppercase my-3 tracking-widest text-lg">
