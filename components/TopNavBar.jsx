@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const TopNavBar = () => {
   return (
-    <div>
+    <div className="sticky top-0 z-50">
       <div className="p-4 bg-[#F9E2E7] text-[9px] font-semibold tracking-wider text-center">
         <span>
           FREE DELIVERY OVER $175 USD OR $25 USD FLAT-RATE DELIVERY ON ALL

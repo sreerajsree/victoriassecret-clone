@@ -43,7 +43,7 @@ const MainNav = () => {
           <input
             type="text"
             id="floating_filled"
-            class="block rounded-t-lg px-2 py-4 w-full text-sm text-gray-900 bg-[#F7F7F8] appearance-none focus:outline-none focus:ring-0  peer"
+            class="block rounded-t-lg px-2 py-4 w-full text-sm textp-gray-900 bg-[#F7F7F8] appearance-none focus:outline-none focus:ring-0  peer"
             placeholder=" "
           />
           <label
