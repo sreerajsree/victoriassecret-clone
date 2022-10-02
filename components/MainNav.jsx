@@ -1,16 +1,32 @@
 import React from "react";
+import Image from "next/image";
+import { FiSearch } from "react-icons/fi";
+
 
 const MainNav = () => {
   return (
-    <div className="flex items-center justify-between container mx-auto">
-      <div>start</div>
+    <div className="flex items-center justify-between container mx-auto py-10">
+      <div className="inline-flex">
+        <p className="pr-1 h-5 w-5">
+          <Image
+            className="rounded-full"
+            src="/india-flag.svg"
+            width={50}
+            height={50}
+          />
+        </p>
+        <p className="uppercase text-gray-600 text-sm px-1 border-x-[1px] border-black">
+          english
+        </p>
+        <p className="uppercase text-gray-600 text-sm pl-1">INR</p>
+      </div>
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 764.57 59.16"
           aria-label="Victoria's Secret Home"
           role="img"
-          className="w-60"
+          className="w-72"
         >
           <title>Victoria's Secret Home</title>
           <g data-name="Layer 2">
@@ -21,8 +37,22 @@ const MainNav = () => {
           </g>
         </svg>
       </div>
-      <div>
-        end
+      <div className="bg-[#F7F7F8] inline-flex">
+        <FiSearch className="w-6 h-6 mx-2 mt-3 focus:outline-none" />
+        <div class="relative">
+          <input
+            type="text"
+            id="floating_filled"
+            class="block rounded-t-lg px-2 py-4 w-full text-sm text-gray-900 bg-[#F7F7F8] appearance-none focus:outline-none focus:ring-0  peer"
+            placeholder=" "
+          />
+          <label
+            for="floating_filled"
+            class="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-gray-600 peer-focus:uppercase peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
+          >
+            Search
+          </label>
+        </div>
       </div>
     </div>
   );
