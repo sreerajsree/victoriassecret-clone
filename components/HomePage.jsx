@@ -106,6 +106,43 @@ const HomePage = () => {
           </div>
         </a>
       </div>
+      <div className="mt-10 md:mt-16">
+        <a href="">
+          <img
+            className="w-full h-full hidden md:block"
+            src="/banner4.jpg"
+            alt="banner4"
+          />
+          <img
+            className="w-full h-full block md:hidden"
+            src="/banner4m.jpg"
+            alt="banner4"
+          />
+        </a>
+      </div>
+      <div className="mt-10 md:mt-16">
+        <a href="">
+          <img
+            className="w-full h-full hidden md:block"
+            src="/banner5.jpg"
+            alt="banner5"
+          />
+          <img
+            className="w-full h-full block md:hidden"
+            src="/banner5m.jpg"
+            alt="banner5"
+          />
+        </a>
+      </div>
+      <hr class="my-10 md:my-16 h-[1.5px] md:h-[2.5px] bg-gray-400 border-0 max-w-[300px] md:container mx-auto"></hr>
+      <div>
+        <div className="hidden md:block">
+          <img className="w-full h-full" src="/faq.jpg" alt="faq" />
+        </div>
+        <div className="block md:hidden">
+          <img className="w-full h-full" src="/faqm.jpg" alt="faqm" />
+        </div>
+      </div>
     </div>
   );
 };

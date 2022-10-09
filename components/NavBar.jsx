@@ -5,12 +5,13 @@ import { FiSearch } from "react-icons/fi";
 const NavBar = () => {
   return (
     <div className='hidden container mx-auto py-5 md:flex items-center justify-between'>
-        <div className='flex divide-x divide-gray-600'>
+        <div className='flex divide-x divide-gray-600 w-[250px]'>
             <button className='px-1'><Image
             className="rounded-full"
-            src="/india-flag.svg"
-            width={20}
-            height={20}
+            src="/india.png"
+            width={16}
+            height={16}
+            alt="india"
           /></button>
             <button className='uppercase text-[12px] px-1'>english</button>
             <button className='uppercase text-[12px] px-1'>inr</button>
@@ -21,7 +22,7 @@ const NavBar = () => {
           viewBox="0 0 764.57 59.16"
           aria-label="Victoria's Secret Home"
           role="img"
-          className="w-72"
+          className="w-80"
         >
           <title>VS Home</title>
           <g data-name="Layer 2">
@@ -32,18 +33,18 @@ const NavBar = () => {
           </g>
         </svg>
         </div>
-        <div className="bg-[#F7F7F8] inline-flex">
+        <div className="bg-[#F7F7F8] inline-flex w-[250px]">
         <FiSearch className="w-6 h-6 mx-2 mt-3 focus:outline-none" />
-        <div class="relative">
+        <div className="relative">
           <input
             type="text"
             id="floating_filled"
-            class="block rounded-t-lg px-2 py-4 w-full text-sm textp-gray-900 bg-[#F7F7F8] appearance-none focus:outline-none focus:ring-0  peer"
+            className="block rounded-t-lg px-2 py-4 w-full text-sm textp-gray-900 bg-[#F7F7F8] appearance-none focus:outline-none focus:ring-0  peer"
             placeholder=" "
           />
           <label
-            for="floating_filled"
-            class="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-gray-600 peer-focus:uppercase peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
+            htmlFor="floating_filled"
+            className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-focus:text-gray-600 peer-focus:uppercase peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
           >
             Search
           </label>

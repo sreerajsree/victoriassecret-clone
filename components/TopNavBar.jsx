@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineShoppingBag, HiOutlineMenu } from "react-icons/hi";
+import { FiSearch } from 'react-icons/fi'
 
 const TopNavBar = () => {
   return (
@@ -96,8 +97,8 @@ const TopNavBar = () => {
           </a>
         </div>
       </div>
-      <div className="flex items-center justify-between p-3 md:hidden">
-        <div>
+      <div className="flex items-center justify-between p-3 md:hidden sticky top-0 bg-white">
+        <div className="w-[50px]">
           <HiOutlineMenu className="w-6 h-6" />
         </div>
         <div>
@@ -106,7 +107,7 @@ const TopNavBar = () => {
             viewBox="0 0 764.57 59.16"
             aria-label="Victoria's Secret INTL Home"
             role="img"
-            className="w-[180px]"
+            className="w-[200px]"
           >
             <title>VS</title>
             <g data-name="Layer 2">
@@ -117,9 +118,9 @@ const TopNavBar = () => {
             </g>
           </svg>
         </div>
-        <div className="flex">
+        <div className="flex w-[50px]">
           <a href="">
-            <AiOutlineUser className="h-6 w-6" />
+            <FiSearch className="h-6 w-6" />
           </a>
           <a href="">
             <HiOutlineShoppingBag className="h-6 w-6 ml-3" />
