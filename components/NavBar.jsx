@@ -1,26 +1,21 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 import { FiSearch } from "react-icons/fi";
 
-
-const MainNav = () => {
+const NavBar = () => {
   return (
-    <div className="flex items-center justify-between container mx-auto py-10">
-      <div className="inline-flex">
-        <p className="pr-1 h-5 w-5">
-          <Image
+    <div className='hidden container mx-auto py-5 md:flex items-center justify-between'>
+        <div className='flex divide-x divide-gray-600'>
+            <button className='px-1'><Image
             className="rounded-full"
             src="/india-flag.svg"
-            width={50}
-            height={50}
-          />
-        </p>
-        <p className="uppercase text-gray-600 text-sm px-1 border-x-[1px] border-black">
-          english
-        </p>
-        <p className="uppercase text-gray-600 text-sm pl-1">INR</p>
-      </div>
-      <div>
+            width={20}
+            height={20}
+          /></button>
+            <button className='uppercase text-[12px] px-1'>english</button>
+            <button className='uppercase text-[12px] px-1'>inr</button>
+        </div>
+        <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 764.57 59.16"
@@ -36,8 +31,8 @@ const MainNav = () => {
             ></path>
           </g>
         </svg>
-      </div>
-      <div className="bg-[#F7F7F8] inline-flex">
+        </div>
+        <div className="bg-[#F7F7F8] inline-flex">
         <FiSearch className="w-6 h-6 mx-2 mt-3 focus:outline-none" />
         <div class="relative">
           <input
@@ -55,7 +50,7 @@ const MainNav = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MainNav;
+export default NavBar

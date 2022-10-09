@@ -1,165 +1,112 @@
 import React from "react";
-import Image from "next/image";
-import Slider from "./Slider";
-import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <>
-      <div className="relative">
-        <Image
+    <div>
+      <a href="">
+        <img
+          className="w-full h-full hidden md:block"
           src="/banner1.jpg"
-          width={1920}
-          height={720}
-          layout="responsive"
+          alt="banner1"
         />
-        <div className="w-full h-full">
-          <Link
-            className="w-full h-[41rem] absolute top-0 left-0"
-            href="/vsall"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[26rem] left-[17rem]"
-            href="/bras"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[26rem] left-[32rem]"
-            href="/panties"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[26rem] left-[47rem]"
-            href="/lingerie"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[26rem] left-[62rem]"
-            href="/sleeep"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[30rem] left-[17rem]"
-            href="/sports"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[30rem] left-[32rem]"
-            href="/beauty"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[30rem] left-[47rem]"
-            href="/accessories"
-          >
-            <a></a>
-          </Link>
-          <Link
-            className="border h-[4rem] w-[12rem] absolute top-[30rem] left-[62rem]"
-            href="/swim"
-          >
-            <a></a>
-          </Link>
-        </div>
-      </div>
-      <div className="border-b-2 border-gray-500 mt-20 max-w-7xl mx-auto"></div>
-      <Slider />
-      <div className="text-center">
-        <Link href="/bodybyv">
-          <a>
-            <p className="mt-2 text-6xl font-bold uppercase">
-              body by victoria
-            </p>
-            <p className="mt-2 text-sm text-gray-600">
-              Our most-loved bras get a seasonal update with new, must-have
-              hues. Featuring Memory Fit lining.
-            </p>
-            <p className="font-bold uppercase my-3 tracking-widest text-lg">
-              shop
-            </p>
-          </a>
-        </Link>
-      </div>
-      <div className="container mx-auto">
-        <Link href="/pantiesbyv">
-          <a>
-            <Image
-              src="/panties.jpg"
-              width={1920}
-              height={1080}
-              layout="responsive"
-            />
-            <div className="text-center">
-              <p className="mt-2 text-4xl font-bold uppercase">
-                5 for ₹ 3,034.66 panties
-              </p>
-              <p className="mt-2 text-sm text-gary-600">
-                Why stop att just fivr? Its the everyday indulgence at a
-                pick-me-up price
-              </p>
-              <p className="font-bold uppercase my-3 tracking-widest text-lg">
-                shop
-              </p>
-            </div>
-          </a>
-        </Link>
-      </div>
-      <div className="container mx-auto relative">
-        <Link href="/limited">
-          <a>
-            <Image
-              src="/free.jpg"
-              width={1920}
-              height={1080}
-              layout="responsive"
-            />
-          </a>
-        </Link>
-        <div className="absolute top-1/2 right-[5%] text-center max-w-[450px]">
-          <p className="uppercase tracking-wider font-bold text-base">
+        <img
+          className="w-full h-full block md:hidden"
+          src="/banner1m.jpg"
+          alt="banner1mobile"
+        />
+      </a>
+      <div className="container mx-auto mt-16">
+        <a href="" className="text-center">
+          <img
+            className="w-full h-full hidden md:block"
+            src="/banner2.jpg"
+            alt="banner2"
+          />
+          <img
+            className="w-full h-full block md:hidden"
+            src="/banner2m.jpg"
+            alt="banner2m"
+          />
+          <p className="font-bold tracking-widest uppercase text-base md:text-lg my-3">
             limited time - online only
           </p>
-          <p className="font-bold uppercase text-6xl my-2">free tote</p>
-          <p className="font-bold tracking-wider uppercase">
-            with an ₹ 8.060.82 purchase
+          <h2 className="font-bold text-3xl md:text-5xl uppercase">
+            ₹ 958.01 off bras
+          </h2>
+          <p className="text-xs text-gray-800 my-3">
+            Orig. up to ₹ 7,659.26. Excludes PINK, third-party styles, and
+            clearance. Prices as marked.
           </p>
-          <p className="text-base text-gray-600">
-            While quanntities last. Exclusions apply. Code RWFREETOTE.{" "}
-            <Link href="/details" className="underline">
-              <a className="underline">Details</a>
-            </Link>
+          <p className="font-bold tracking-widest uppercase text-lg">shop</p>
+        </a>
+      </div>
+      <div>
+        <a href="" className="text-center">
+          <img
+            className="w-full h-full mt-10 hidden md:block"
+            src="/banner3.jpg"
+            alt="banner3"
+          />
+          <img
+            className="w-full h-full mt-5 block md:hidden"
+            src="/banner3m.jpg"
+            alt="banner3m"
+          />
+          <h2 className="font-bold uppercase text-2xl md:text-4xl mt-5">
+            more pajamas, please
+          </h2>
+          <p className="text-gray-800 text-xs mt-3">
+            Elevate your nighttime look with chic, modal styles.
           </p>
-          <p className="uppercase tracking-wider font-bold my-2">
-            shop new arrivals
+          <p className="mt-4 font-bold tracking-widest uppercase text-lg">
+            shop
           </p>
+        </a>
+      </div>
+      <div className="relative hidden md:block">
+        <a href="">
+          <img className="mt-14" src="/beauty.jpg" alt="beauty" />
+        </a>
+        <div className="absolute top-[30%] left-[5%]">
+          <div className="text-white text-center max-w-[450px]">
+            <p className="italic uppercase">limited time</p>
+            <h2 className="font-bold text-5xl">₹ 857.42</h2>
+            <p className="font-bold text-2xl my-2 tracking-wide">Lotions</p>
+            <p className="font-thin text-sm">
+              Orig. up to ₹ 1,911.22 each. Select styles. Excludes PINK and
+              Natural Beauty Body Care. Limit 9 per customer. Prices as marked.
+              In-store prices may vary.
+            </p>
+            <p className="font-bold uppercase tracking-widest my-5">
+              shop the collection
+            </p>
+          </div>
         </div>
       </div>
-      <div className="mt-5 relative">
-        <Link href="/#">
-          <a>
-            <Image
-              src="/bras.jpg"
-              width={1920}
-              height={790}
-              layout="responsive"
-            />
-            <div className="text-center tracking-wider absolute top-[43%] left-[40%]">
-              <p className="font-bold uppercase">endless possibilities</p>
-              <p className="font-bold uppercase text-5xl my-3">mix & match</p>
-              <p className="font-bold uppercase">shop</p>
-            </div>
-          </a>
-        </Link>
+      <div className="block md:hidden">
+        <a href="">
+          <img
+            className="w-full h-full mt-8"
+            src="/beautym.jpg"
+            alt="beautym"
+          />
+          <div className="text-center max-w-[340px] mx-auto">
+            <p className="italic uppercase my-2">limited time</p>
+            <h2 className="font-bold text-5xl">₹ 857.42</h2>
+            <p className="font-bold text-2xl my-2 tracking-wide">Lotions</p>
+            <p className="font-thin text-xs">
+              Orig. up to ₹ 1,911.22 each. Select styles. Excludes PINK and
+              Natural Beauty Body Care. Limit 9 per customer. Prices as marked.
+              In-store prices may vary.
+            </p>
+            <p className="font-bold uppercase tracking-widest my-5">
+              shop the collection
+            </p>
+            <div className="border-b-2 mt-16 mb-5 border-gray-400"></div>
+          </div>
+        </a>
       </div>
-    </>
+    </div>
   );
 };
 
