@@ -146,7 +146,7 @@ const HomePage = () => {
       <div className="bg-black mt-10">
         <a href="">
           <div className="text-center text-white py-16 md:py-20">
-            <h2 className="font-bold uppercase text-3xl md:text-4xl">don't miss out!</h2>
+            <h2 className="font-bold uppercase text-3xl md:text-4xl">don&apos;t miss out!</h2>
             <p className="my-2 font-normal md:font-semibold px-4 text-xs md:text-base">
               Get exclusive offers, the latest trends & our new arrivals
               delivered straight to your inbox!
