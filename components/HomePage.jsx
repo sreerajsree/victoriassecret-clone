@@ -65,7 +65,7 @@ const HomePage = () => {
       </div>
       <div className="relative hidden md:block">
         <a href="">
-          <img className="mt-14" src="/beauty.jpg" alt="beauty" />
+          <img className="w-full h-full mt-14" src="/beauty.jpg" alt="beauty" />
         </a>
         <div className="absolute top-[30%] left-[5%]">
           <div className="text-white text-center max-w-[450px]">
@@ -142,6 +142,30 @@ const HomePage = () => {
         <div className="block md:hidden">
           <img className="w-full h-full" src="/faqm.jpg" alt="faqm" />
         </div>
+      </div>
+      <div className="bg-black mt-10">
+        <a href="">
+          <div className="text-center text-white py-16 md:py-20">
+            <h2 className="font-bold uppercase text-3xl md:text-4xl">don't miss out!</h2>
+            <p className="my-2 font-normal md:font-semibold px-4 text-xs md:text-base">
+              Get exclusive offers, the latest trends & our new arrivals
+              delivered straight to your inbox!
+            </p>
+            <p className="font-bold tracking-widest uppercase text-lg">
+              sign up for email
+            </p>
+          </div>
+        </a>
+      </div>
+      <div className="text-center my-10 md:my-12">
+        <a href="">
+          <h2 className="text-gray-600 font-thin uppercase text-xl tracking-wider hidden md:block">
+            follow our story @victoriassecret
+          </h2>
+          <h2 className="text-gray-600 font-thin uppercase text-xl tracking-wider block md:hidden">
+            made to be seen @victoriassecret
+          </h2>
+        </a>
       </div>
     </div>
   );
