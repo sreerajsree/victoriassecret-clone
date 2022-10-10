@@ -8,22 +8,22 @@ const responsive = {
   1024: { items: 4 },
 };
 const items = [
-  <div className="item" data-value="1">
+  <div key={1} className="item" data-value="1">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
-  <div className="item" data-value="2">
+  <div key={2} className="item" data-value="2">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
-  <div className="item" data-value="3">
+  <div key={3} className="item" data-value="3">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
-  <div className="item" data-value="4">
+  <div key={4} className="item" data-value="4">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
-  <div className="item" data-value="5">
+  <div key={5} className="item" data-value="5">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
-  <div className="item" data-value="5">
+  <div key={6} className="item" data-value="5">
     <img src="/slide1.webp" alt="slide1" />
   </div>,
 ];
