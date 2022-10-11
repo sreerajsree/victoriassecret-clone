@@ -15,7 +15,7 @@ export default function Home() {
       <TopNavBar />
       <NavBar />
       <NavItems />
-      {/* <HomePage /> */}
+      <HomePage />
       <div className="my-20"></div>
     </div>
   );
