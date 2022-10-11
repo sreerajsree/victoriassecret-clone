@@ -22,7 +22,6 @@ textarea:focus ~ label,
 textarea:not(:placeholder-shown) ~ label,
 select:focus ~ label,
 select:not([value=""]):valid ~ label {
-  /* @apply transform; scale-75; -translate-y-6; */
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -38,7 +37,6 @@ select:not([value=""]):valid ~ label {
 
 input:focus ~ label,
 select:focus ~ label {
-  /* @apply text-black; left-0; */
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
   left: 0px;
@@ -52,6 +50,24 @@ select:focus ~ label {
 }
 .react-multiple-carousel__arrow {
   border-radius: 0px !important;
+  z-index: 40 !important;
   height: 93%;
   width: 45px;
 }
+
+.mega-menu {
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.hoverable {
+  position: static;
+}
+
+.hoverable:hover .mega-menu {
+  display: block;
+}
+
