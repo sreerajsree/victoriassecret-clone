@@ -14,6 +14,11 @@ const HomePage = () => {
           src="/banner1m.jpg"
           alt="banner1mobile"
         />
+        <div className="text-center">
+          <h2 className="font-bold uppercase text-2xl md:text-5xl mt-5">it's shine strap season</h2>
+          <p className="mt-2 text-xs text-gray-600">Give your collection a glamorous update with our signature style</p>
+          <p className="mt-3 uppercase tracking-widest font-bold text-lg">Shop</p>
+        </div>
       </a>
       <div className="container mx-auto mt-16">
         <a href="" className="text-center">

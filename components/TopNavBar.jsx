@@ -1,14 +1,21 @@
 import React from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineShoppingBag, HiOutlineMenu } from "react-icons/hi";
-import { FiSearch } from 'react-icons/fi'
+import { FiSearch } from "react-icons/fi";
 
 const TopNavBar = () => {
   return (
     <>
       <div className="sticky top-0 z-50 hidden md:block">
         <div className="p-4 bg-[#F9E2E7] text-[9px] font-semibold tracking-wider text-center">
-          <span>DEVELOPMENT GOING ON</span>
+          <span>
+            MADE WITH{" "}
+            <a href="https://nextjs.org/" className="underline">
+              NEXT JS
+            </a>{" "}
+            & <a href="https://tailwindcss.com/" className="underline">TAILWIND CSS</a> BY{" "}
+            <a href="https://sreerajsree.vercel.app/" className="underline">SREERAJ S</a>
+          </span>
           <a
             href=""
             className=" uppercase ml-3 px-3 py-2 border border-black rounded-sm"
@@ -128,14 +135,14 @@ const TopNavBar = () => {
         </div>
       </div>
       <div className="p-4 bg-[#F9E2E7] text-[8px] font-semibold tracking-wider text-center block md:hidden">
-          <span>DEVELOPMENT GOING ON</span>
-          <a
-            href=""
-            className=" uppercase ml-3 px-3 py-2 border border-black rounded-sm"
-          >
-            view offers
-          </a>
-        </div>
+        <span>DEVELOPMENT GOING ON</span>
+        <a
+          href=""
+          className=" uppercase ml-3 px-3 py-2 border border-black rounded-sm"
+        >
+          view offers
+        </a>
+      </div>
     </>
   );
 };

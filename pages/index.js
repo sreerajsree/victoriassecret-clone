@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import HomePage from "../components/HomePage";
 import NavBar from "../components/NavBar";
 import NavItems from "../components/NavItems";
+import Slider from "../components/Slider";
 import TopNavBar from "../components/TopNavBar";
 
 export default function Home() {
@@ -16,7 +18,8 @@ export default function Home() {
       <NavBar />
       <NavItems />
       <HomePage />
-      <div className="my-20"></div>
+      <Slider/>
+      <Footer/>
     </div>
   );
 }
