@@ -13,8 +13,14 @@ const TopNavBar = () => {
             <a href="https://nextjs.org/" className="underline">
               NEXT JS
             </a>{" "}
-            & <a href="https://tailwindcss.com/" className="underline">TAILWIND CSS</a> BY{" "}
-            <a href="https://sreerajsree.vercel.app/" className="underline">SREERAJ S</a>
+            &{" "}
+            <a href="https://tailwindcss.com/" className="underline">
+              TAILWIND CSS
+            </a>{" "}
+            BY{" "}
+            <a href="https://sreerajsree.vercel.app/" className="underline">
+              SREERAJ S
+            </a>
           </span>
           <a
             href=""
@@ -135,7 +141,20 @@ const TopNavBar = () => {
         </div>
       </div>
       <div className="p-4 bg-[#F9E2E7] text-[8px] font-semibold tracking-wider text-center block md:hidden">
-        <span>DEVELOPMENT GOING ON</span>
+        <span>
+          MADE WITH{" "}
+          <a href="https://nextjs.org/" className="underline">
+            NEXT JS
+          </a>{" "}
+          &{" "}
+          <a href="https://tailwindcss.com/" className="underline">
+            TAILWIND CSS
+          </a>{" "}
+          BY{" "}
+          <a href="https://sreerajsree.vercel.app/" className="underline">
+            SREERAJ S
+          </a>
+        </span>
         <a
           href=""
           className=" uppercase ml-3 px-3 py-2 border border-black rounded-sm"
