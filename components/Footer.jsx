@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="my-8 text-[10px] text-gray-600 container mx-auto">
-          <p>© 2022 Victoria's Secret. All Rights Reserved.</p>
+          <p>© 2022 Victoria&apos;s Secret. All Rights Reserved.</p>
           <div className="flex mt-3">
             <div className="pr-1">Terms of Use</div>
             <div className="border-l border-black px-1">Privacy & Security</div>

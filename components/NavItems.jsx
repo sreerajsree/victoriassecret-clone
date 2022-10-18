@@ -14,12 +14,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/3">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         all new arrivals
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         consiously designed
                       </a>
                     </li>
@@ -29,42 +29,42 @@ const NavItems = () => {
                       new arrivals
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sleep
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Ligerie
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sport & Lounge
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Swim
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Beauty
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Accessories
                       </a>
                     </li>
@@ -74,17 +74,17 @@ const NavItems = () => {
                       featured shops
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Colour Your World
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Embroidery & Lace
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bra Tops as Outerwear
                       </a>
                     </li>
@@ -100,12 +100,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/4">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL BRAS: SIZES A-G CUPS
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -113,67 +113,67 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">STYLES</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Push-Up
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Lightly Lined
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Unlined
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Full Coverage
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Demi
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Wireless
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bustiers & Corsets
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Strapless
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bralettes
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sports Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Maternity/Nursing Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Mastectomy Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Outfitting Solutions
                       </a>
                     </li>
@@ -186,37 +186,37 @@ const NavItems = () => {
                       MOST-LOVED COLLECTIONS
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW Body by Victoria Bras & Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Very Sexy So Obsessed Wireless Push-Up Bra
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Love Cloud Bras & Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Very Sexy Bras & Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Dream Angels Bras & Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         The T-Shirt Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Fabulous Collection: 36C-42G
                       </a>
                     </li>
@@ -224,22 +224,22 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">BRA GUIDE</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         How To Measure
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Style Finder
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Common Bra Fit Issues
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Breast Shape Fit Impacts
                       </a>
                     </li>
@@ -255,12 +255,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/4">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL PANTIES: XS-XXL
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -268,47 +268,47 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">STYLES</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Thongs & V-Strings
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Cheekies & Cheekinis
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bikinis & Briefs
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Hiphuggers
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Boyshorts
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Brazilian Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         High-Waist & High-Leg
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Garters & Hosiery
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shapewear
                       </a>
                     </li>
@@ -319,22 +319,22 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">FEATURED</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Favorite Styles
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Glamour Styles
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shine Strap Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Panty Packs
                       </a>
                     </li>
@@ -342,39 +342,39 @@ const NavItems = () => {
                       MOST LOVED COLLECTIONS
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW Body by Victoria Panties & Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Very Sexy So Obsessed Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Love Cloud Panties & Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Very Sexy Panties & Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Dream Angels Panties & Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Cotton Panties & Bras
                       </a>
                     </li>
                   </ul>
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">
-                      <a href="/#">THE PANTY GUIDE</a>
+                      <a>THE PANTY GUIDE</a>
                     </li>
                   </ul>
                 </div>
@@ -388,12 +388,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/3">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL LINGERIE
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -401,47 +401,47 @@ const NavItems = () => {
                   <ul className="text-xs w-1/3 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">STYLES</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Teddies
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Babydolls
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Matching Sets & Garters
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Corsets & Bustiers
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Robes
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Slips
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Rompers
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Cami Sets
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shapewear & Hosiery
                       </a>
                     </li>
@@ -449,12 +449,12 @@ const NavItems = () => {
                   <ul className="text-xs w-1/3 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">FEATURED</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         The Costume Edit
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bridal Shop
                       </a>
                     </li>
@@ -470,17 +470,17 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/3">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL SLEEP
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         GIFTING FIRST LOOK
                       </a>
                     </li>
@@ -488,39 +488,39 @@ const NavItems = () => {
                   <ul className="text-xs w-1/3 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">PAJAMAS</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Pajama Sets
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Pajama Tops & Shorts
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sleepshirts
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Robes & Slippers
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Rompers & Jumpsuits
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         All Pajamas
                       </a>
                     </li>
                   </ul>
                   <ul className="text-xs w-1/3 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ROBES, SLIPPERS & BLANKETS
                       </a>
                     </li>
@@ -528,27 +528,27 @@ const NavItems = () => {
                       SHOP BY FABRIC
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW Glow Waffle
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW Flannel
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Modal
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Satin
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Cotton
                       </a>
                     </li>
@@ -564,12 +564,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/3">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL SPORT & LOUNGE
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -577,37 +577,37 @@ const NavItems = () => {
                   <ul className="text-xs w-1/3 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">STYLES</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Leggings
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sports Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sweatpants & Joggers
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sweatshirts & Hoodies
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shorts & Skirts
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         T-Shirts & Tank Tops
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         One-Pieces
                       </a>
                     </li>
@@ -617,7 +617,7 @@ const NavItems = () => {
                       featured shops
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Matching Sets
                       </a>
                     </li>
@@ -633,7 +633,7 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/4">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL BEAUTY
                       </a>
                     </li>
@@ -641,44 +641,44 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">BODY CARE</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         The Mist Collection
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Fragrance Lotions
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Body Lotions
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Washes & Scrubs
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         All Body Care
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Deodorant
                       </a>
                     </li>
                   </ul>
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         LIP
                       </a>
                     </li>
                     <li className="pb-2 ml-5 font-bold uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         COSMETIC BAGS
                       </a>
                     </li>
@@ -688,22 +688,22 @@ const NavItems = () => {
                       FEATURED SHOPS
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         The Gift Shop
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Natural Beauty Body Care
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         PINK Body Care
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Discover Our Fine Fragrance
                       </a>
                     </li>
@@ -719,12 +719,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/4">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         ALL BAGS & ACCESSORIES
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -732,22 +732,22 @@ const NavItems = () => {
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="font-bold pb-2 uppercase ml-5">BAGS</li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shoulder Bags
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Crossbody Bags
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Backpacks & Totes
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         All Bags
                       </a>
                     </li>
@@ -757,22 +757,22 @@ const NavItems = () => {
                       ACCESSORIES
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Wallets & Card Cases
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Keychains
                       </a>
                     </li>
                     <li className="pb-3 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         All Accessories
                       </a>
                     </li>
                     <li className="pb-2 ml-5 font-bold uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         COSMETIC CASES
                       </a>
                     </li>
@@ -782,7 +782,7 @@ const NavItems = () => {
                       COSMETIC CASES
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         The Travel Shop
                       </a>
                     </li>
@@ -798,7 +798,7 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/4">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         all swim
                       </a>
                     </li>
@@ -808,29 +808,29 @@ const NavItems = () => {
                       CATEGORIES
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bikinis
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         One-Pieces
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Cover-Ups
                       </a>
                     </li>
                   </ul>
                   <ul className="text-xs w-1/4 border-l-[2px] border-gray-300">
                     <li className="pb-2 font-bold uppercase ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         TOPS
                       </a>
                     </li>
                     <li className="pb-2 ml-5 font-bold uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         BOTTOMS
                       </a>
                     </li>
@@ -840,22 +840,22 @@ const NavItems = () => {
                       FEATURED SHOPS
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Blue Hues
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Gigi x Frankies Bikinis
                       </a>
                     </li>
                     <li className="pb-3 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Classic Black Bikinis
                       </a>
                     </li>
                     <li className="pb-2 ml-5 font-bold uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         FEATURED BRANDS
                       </a>
                     </li>
@@ -871,12 +871,12 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/3">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         SHOP ALL
                       </a>
                     </li>
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         NEW ARRIVALS
                       </a>
                     </li>
@@ -886,42 +886,42 @@ const NavItems = () => {
                       CATEGORIES
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Swim
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Lingerie
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Shapewear & Solutions
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Garters & Hosiery
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Matching Bras & Panties Sets
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bridal Shop
                       </a>
                     </li>
@@ -931,22 +931,22 @@ const NavItems = () => {
                       FEATURED BRANDS
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         For Love & Lemons
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bluebella
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Leonisa
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Frankies Bikinis
                       </a>
                     </li>
@@ -962,7 +962,7 @@ const NavItems = () => {
                 <div className="container mx-auto w-full flex flex-wrap justify-between shadow-lg bg-[#F7F7F8] z-50 px-16 py-5">
                   <ul className="text-xs w-1/2">
                     <li className="font-bold pb-2 uppercase">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         all sale
                       </a>
                     </li>
@@ -972,47 +972,47 @@ const NavItems = () => {
                       CATEGORIES
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Bras
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Panties
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Ligerie
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sleep
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Sport & Lounge
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Beauty
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Accessories
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Swim
                       </a>
                     </li>
                     <li className="pb-2 ml-5">
-                      <a href="/#" className="hover:underline">
+                      <a className="hover:underline">
                         Brands We Love
                       </a>
                     </li>
