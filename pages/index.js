@@ -15,10 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopNavBar />
-      {/* <NavBar />
+      <NavBar />
       <NavItems />
       <HomePage />
-      <Slider/> */}
+      <Slider/>
       <Footer/>
     </div>
   );
