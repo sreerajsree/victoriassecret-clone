@@ -1,8 +1,9 @@
-import React from "react";
 import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { BsTwitter, BsPinterest } from "react-icons/bs";
+import Accordion from "./Accordion";
 
 const Footer = () => {
+  
   return (
     <>
       <div className="hidden md:block">
@@ -50,6 +51,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="block md:hidden">
+        <Accordion/>
       </div>
     </>
   );
