@@ -1,22 +1,24 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 import { FiSearch } from "react-icons/fi";
 
 const NavBar = () => {
   return (
-    <div className='hidden container mx-auto py-5 md:flex items-center justify-between'>
-        <div className='flex divide-x divide-gray-600 w-[250px]'>
-            <button className='px-1'><Image
+    <div className="hidden container mx-auto py-5 md:flex items-center justify-between">
+      <div className="flex divide-x divide-gray-600 w-[250px]">
+        <button className="px-1">
+          <Image
             className="rounded-full"
             src="/india.png"
             width={16}
             height={16}
             alt="india"
-          /></button>
-            <button className='uppercase text-[12px] px-1'>english</button>
-            <button className='uppercase text-[12px] px-1'>inr</button>
-        </div>
-        <div>
+          />
+        </button>
+        <button className="uppercase text-[12px] px-1">english</button>
+        <button className="uppercase text-[12px] px-1">inr</button>
+      </div>
+      <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 764.57 59.16"
@@ -32,8 +34,8 @@ const NavBar = () => {
             ></path>
           </g>
         </svg>
-        </div>
-        <div className="bg-[#F7F7F8] inline-flex w-[250px]">
+      </div>
+      <div className="bg-[#F7F7F8] inline-flex w-[250px]">
         <FiSearch className="w-6 h-6 mx-2 mt-3 focus:outline-none" />
         <div className="relative">
           <input
@@ -51,7 +53,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

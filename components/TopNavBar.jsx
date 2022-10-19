@@ -1,9 +1,12 @@
-import React from "react";
+import { useState } from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineShoppingBag, HiOutlineMenu } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
+import ResNav from "./ResNav";
 
 const TopNavBar = () => {
+
+  const [menu, setMenu] = useState(false)
   return (
     <>
       <div className="sticky top-0 z-50 hidden md:block">
@@ -112,13 +115,16 @@ const TopNavBar = () => {
       </div>
       <div className="flex items-center justify-between p-3 md:hidden sticky top-0 bg-white">
         <div className="w-[50px]">
-          <HiOutlineMenu className="w-6 h-6" />
+          <HiOutlineMenu className="w-6 h-6" onClick={() => setMenu(true)} />
+          {
+            menu ? (<ResNav setMenu={setMenu}  />) : null 
+          }
         </div>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 764.57 59.16"
-            aria-label="Victoria's Secret INTL Home"
+            aria-label="Victoria's Secret Home"
             role="img"
             className="w-[200px]"
           >
