@@ -64,7 +64,7 @@ const ResNav = ({ setMenu }) => {
             />
           </div>
           <ul className="mt-8 text-gray-600 uppercase tracking-wider text-lg">
-            <li className="mb-4">Today's offers</li>
+            <li className="mb-4">Today&apos;s offers</li>
             <li className="mb-4">new!</li>
             <li className="mb-4">bras</li>
             <li className="mb-4">panties</li>
