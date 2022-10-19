@@ -29,13 +29,10 @@ const Accordion = () => {
         <div>
           <div className="p-5 font-light border border-b-0 border-gray-200">
             <p className="mb-2 text-gray-500 dark:text-gray-400">
-              Flowbite is an open-source library of interactive components built
-              on top of Tailwind CSS including buttons, dropdowns, modals,
-              navbars, and more.
+              Data 1
             </p>
             <p className="text-gray-500">
-              Check out this guide to learn how to and start developing websites
-              even faster with components on top of Tailwind CSS.
+              Data Accordion
             </p>
           </div>
         </div>
