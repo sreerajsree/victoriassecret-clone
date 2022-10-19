@@ -15,15 +15,15 @@ const ResNav = ({ setMenu }) => {
         class="w-80 fixed top-0 h-auto left-0 bottom-0 z-10 overflow-auto"
         aria-label="Sidebar"
       >
-        <div class="overflow-y-auto py-4 px-3 bg-white">
+        <div class="px-3 bg-white">
           <div className="grid grid-cols-2">
-            <div className="mx-auto">
+            <div className="border-b-2 border-b-[#F4C6CF] py-3 w-full">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 441.78 130.63"
                   aria-hidden="true"
-                  className="h-5"
+                  className="h-5 mx-auto"
                 >
                   <g data-name="Layer 2">
                     <path
@@ -34,7 +34,7 @@ const ResNav = ({ setMenu }) => {
                 </svg>
               </a>
             </div>
-            <div className="mx-auto">
+            <div className="mx-auto border-b-2 border-b-[#fff] py-3 w-full">
               <a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
